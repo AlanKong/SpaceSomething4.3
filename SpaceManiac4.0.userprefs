@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Ray Package\LevelController.cs">
+    <Files>
+      <File FileName="Assets\ALAN'S STUFF\Assets\Scripts\GUIScripts\BattleButtonGuiScript.cs" Line="38" Column="11" />
+      <File FileName="Assets\ALAN'S STUFF\Assets\Scripts\OtherScripts\BackgroundDeselectScript.cs" Line="18" Column="1" />
+      <File FileName="Assets\Ray's Expansion\Scripts\SpawnPoint.cs" Line="57" Column="58" />
+      <File FileName="Assets\Ray Package\Techtree.cs" Line="24" Column="6" />
+      <File FileName="Assets\Ray Package\LevelController.cs" Line="110" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

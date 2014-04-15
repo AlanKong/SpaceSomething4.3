@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ALAN'S STUFF\Assets\Scripts\OtherScripts\MapCameraScript.cs">
+    <Files>
+      <File FileName="Assets\ALAN'S STUFF\Assets\Scripts\BattleScripts\BattleFieldScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\ALAN'S STUFF\Assets\Scripts\BattleScripts\BattleScript.cs" Line="147" Column="6" />
+      <File FileName="Assets\ALAN'S STUFF\Assets\Scripts\BattleScripts\EnemyShotDamage.cs" Line="1" Column="1" />
+      <File FileName="Assets\ALAN'S STUFF\Assets\Scripts\BattleScripts\ShipPlayerOneController.cs" Line="46" Column="78" />
+      <File FileName="Assets\ALAN'S STUFF\Assets\Scripts\BattleScripts\ShipPlayerTwoController.cs" Line="48" Column="79" />
+      <File FileName="Assets\ALAN'S STUFF\Assets\Scripts\UpgradeScripts\TestModScript.cs" Line="191" Column="4" />
+      <File FileName="Assets\ALAN'S STUFF\Assets\Scripts\PlanetControlScripts\PlanetStatsScript.cs" Line="171" Column="98" />
+      <File FileName="Assets\ALAN'S STUFF\Assets\Scripts\ShipSpeedFixScript.cs" Line="21" Column="3" />
+      <File FileName="Assets\ALAN'S STUFF\Assets\Scripts\OtherScripts\MapCameraScript.cs" Line="44" Column="38" />
+      <File FileName="Assets\ALAN'S STUFF\Assets\Scripts\UpgradeScripts\FinishBuildButton.cs" Line="29" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

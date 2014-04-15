@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{D09AB286-7A43-78D5-B578-16655C643D4D}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_3;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Alan/Software/Unity/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Alan/Software/Unity/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\BattleScripts\BattleFieldScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\BattleScripts\BattleScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\BattleScripts\EnemyShotDamage.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\BattleScripts\ShipPlayerOneController.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\BattleScripts\ShipPlayerTwoController.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\BattleScripts\ShipSpeedFixScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\DetectorScripts\DownLeftScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\DetectorScripts\DownRightScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\DetectorScripts\UpLeftScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\DetectorScripts\UpRightScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\BarScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\BattleButtonGuiScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\BattleGUIScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\BattleMPTextScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\BattleMineralTextScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\BattleMoneyTextScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\DefPriceScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\DisplayTimeScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\MPDisplayScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\MineralDisplayScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\MoneyDisplayScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\POneRecScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\PTwoRecScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\SkipTurnScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\TimerGUIScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\TurnGreenScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\TurnRedScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\UpgradeButtonScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\enemyMPDisplayScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\enemyMineralDisplayScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\GUIScripts\enemyMoneyDisplayScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\OtherScripts\BackgroundDeselectScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\OtherScripts\CosmosMove.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\OtherScripts\GameControlScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\OtherScripts\MapCameraScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\PlanetControlScripts\GoHomeScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\PlanetControlScripts\OccupyScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\PlanetControlScripts\PlanetStatsScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\PlanetControlScripts\ShipOccupyScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\UpgradeScripts\DeletePressedScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\UpgradeScripts\FinishBuildButton.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\UpgradeScripts\GridSetupScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\UpgradeScripts\OnGridDetectScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\UpgradeScripts\ShotScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\UpgradeScripts\TestModScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\UpgradeScripts\TileDetectScript.cs" />
+     <Compile Include="Assets\ALAN&apos;S STUFF\Assets\Scripts\UpgradeScripts\TileScript.cs" />
+     <Compile Include="Assets\DefTechButtonScript.cs" />
+     <Compile Include="Assets\NoFundsScript.cs" />
+     <Compile Include="Assets\OffButtonScript.cs" />
+     <Compile Include="Assets\Ray Package\Boss\Boss1.cs" />
+     <Compile Include="Assets\Ray Package\Boss\Boss2.cs" />
+     <Compile Include="Assets\Ray Package\Boss\Boss3.cs" />
+     <Compile Include="Assets\Ray Package\Boss\Boss4.cs" />
+     <Compile Include="Assets\Ray Package\Boss\BossDead.cs" />
+     <Compile Include="Assets\Ray Package\Ffield.cs" />
+     <Compile Include="Assets\Ray Package\LevelController.cs" />
+     <Compile Include="Assets\Ray Package\Scripts\Enemy\EnemyShoot.cs" />
+     <Compile Include="Assets\Ray Package\Scripts\Enemy\EnemyShotMove.cs" />
+     <Compile Include="Assets\Ray Package\Scripts\Enemy\Enemy_MoveDown.cs" />
+     <Compile Include="Assets\Ray Package\Scripts\Enemy\Enemy_MoveLeft.cs" />
+     <Compile Include="Assets\Ray Package\Scripts\Enemy\Enemy_MoveRight.cs" />
+     <Compile Include="Assets\Ray Package\Scripts\Enemy\Enemy_Movement1.cs" />
+     <Compile Include="Assets\Ray Package\Scripts\Enemy\Enemy_Ring.cs" />
+     <Compile Include="Assets\Ray Package\Scripts\Enemy\Enemy_Stalker.cs" />
+     <Compile Include="Assets\Ray Package\Scripts\Enemy\Enemy_Walker.cs" />
+     <Compile Include="Assets\Ray Package\Scripts\Enemy\Enemy_loot.cs" />
+     <Compile Include="Assets\Ray Package\Scripts\Enemy\mama_move.cs" />
+     <Compile Include="Assets\Ray Package\Shot_Follow.cs" />
+     <Compile Include="Assets\Ray Package\Techtree.cs" />
+     <Compile Include="Assets\Ray&apos;s Expansion\Scripts\SpawnPoint.cs" />
+     <Compile Include="Assets\TechButtonScript.cs" />
+     <Compile Include="Assets\TechtreeController1.cs" />
+     <Compile Include="Assets\TechtreeController2.cs" />
+     <Compile Include="Assets\UpgCtrl.cs" />
+     <Compile Include="Assets\____k.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
