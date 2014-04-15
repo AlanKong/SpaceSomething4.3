@@ -247,6 +247,7 @@ MonoBehaviour:
   HP: 4
   damage: 1
   isTurret: 1
+  turretType: 1
   shot: {fileID: 100000, guid: 06a8bb22e852b9b48a8def00e01aac9f, type: 2}
   fireInterval: .200000003
   lastShot: 0

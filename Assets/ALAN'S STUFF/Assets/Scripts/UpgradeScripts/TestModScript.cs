@@ -24,6 +24,7 @@ public class TestModScript : MonoBehaviour
 		public int HP;
 		public int damage;
 		public bool isTurret;
+		public int turretType = 0;
 		public GameObject shot;
 		public float fireInterval;
 		public float lastShot;
@@ -52,21 +53,50 @@ public class TestModScript : MonoBehaviour
 				
 				if (isTurret == true && inBattle == true) {
 						if (Input.GetKey (KeyCode.LeftShift) || Input.GetKey (KeyCode.RightShift)) {
+								
+
 								if (Time.time - lastShot > fireInterval) {
 										Vector3 turretLoc = transform.position;
-										Vector2 speed = new Vector2 (10, 10);
-										Vector2 direction = new Vector2 (0, 1);
-										Vector2 movement = new Vector2 (speed.x * direction.x, speed.y * direction.y);
-										GameObject newShot = Instantiate (shot, turretLoc, Quaternion.identity) as GameObject;
-										newShot.GetComponent<ShotScript> ().damage = damage;
-										newShot.rigidbody2D.velocity = movement;
-										lastShot = Time.time;
-								}
 				
-						}
+										if (turretType == 1) {
+												Vector2 speed = new Vector2 (10, 10);
+												Vector2 direction = new Vector2 (0, 1);
+												Vector2 movement = new Vector2 (speed.x * direction.x, speed.y * direction.y);
+												GameObject newShot = Instantiate (shot, turretLoc, Quaternion.identity) as GameObject;
+												newShot.GetComponent<ShotScript> ().damage = damage;
+												newShot.rigidbody2D.velocity = movement;
+												lastShot = Time.time;
+										} else if (turretType == 2) {
+												Vector2 speed = new Vector2 (10, 10);
+												Vector2 direction = new Vector2 (.15f, 1f);
+												Vector2 movement = new Vector2 (speed.x * direction.x, speed.y * direction.y);
+												GameObject newShot = Instantiate (shot, turretLoc, Quaternion.identity) as GameObject;
+												newShot.GetComponent<ShotScript> ().damage = damage;
+												newShot.rigidbody2D.velocity = movement;
+												lastShot = Time.time;
+						
+												speed = new Vector2 (10, 10);
+												direction = new Vector2 (-.15f, 1f);
+												movement = new Vector2 (speed.x * direction.x, speed.y * direction.y);
+												newShot = Instantiate (shot, turretLoc, Quaternion.identity) as GameObject;
+												newShot.GetComponent<ShotScript> ().damage = damage;
+												newShot.rigidbody2D.velocity = movement;
+												lastShot = Time.time;
 
-				}
+												speed = new Vector2 (10, 10);
+												direction = new Vector2 (0f, 1f);
+												movement = new Vector2 (speed.x * direction.x, speed.y * direction.y);
+												newShot = Instantiate (shot, turretLoc, Quaternion.identity) as GameObject;
+												newShot.GetComponent<ShotScript> ().damage = damage;
+												newShot.rigidbody2D.velocity = movement;
+												lastShot = Time.time;
+										}
+				
+								}
+
+						}
 		
+				}
 		}
 
 		void OnMouseDown ()

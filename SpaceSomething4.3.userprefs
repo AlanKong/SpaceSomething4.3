@@ -1,10 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlanetInfoScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ALAN'S STUFF\Assets\Scripts\UpgradeScripts\TestModScript.cs">
     <Files>
-      <File FileName="Assets\ALAN'S STUFF\Assets\Scripts\PlanetControlScripts\PlanetStatsScript.cs" Line="36" Column="30" />
-      <File FileName="Assets\PlanetInfoScript.cs" Line="101" Column="97" />
-      <File FileName="Assets\____k.cs" Line="22" Column="92" />
+      <File FileName="Assets\ALAN'S STUFF\Assets\Scripts\UpgradeScripts\TestModScript.cs" Line="100" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
