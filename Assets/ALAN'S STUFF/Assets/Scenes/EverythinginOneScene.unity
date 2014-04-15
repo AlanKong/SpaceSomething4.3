@@ -195,6 +195,7 @@ MonoBehaviour:
   MP: 0
   Money: 0
   Mineral: 1
+  planetID: 31
 --- !u!61 &7661872
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -419,6 +420,7 @@ MonoBehaviour:
   MP: 0
   Money: 0
   Mineral: 0
+  planetID: 111
 --- !u!61 &18227644
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1475,6 +1477,76 @@ MonoBehaviour:
   friendlyController: {fileID: 9100000, guid: 5e493471dd1b03b429a8b39753973bc7, type: 2}
   enemyArrow: {fileID: 21300000, guid: 53addd720c846664b81f306b7705d9ec, type: 3}
   enemyController: {fileID: 9100000, guid: aecb3c68dc0144f4f872f4fc3941afbe, type: 2}
+--- !u!1 &98356322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 98356324}
+  - 131: {fileID: 98356323}
+  - 114: {fileID: 98356325}
+  m_Layer: 0
+  m_Name: PllanetInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!131 &98356323
+GUITexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 98356322}
+  m_Enabled: 1
+  m_Texture: {fileID: 2800000, guid: 610125dbd36112943bb72bfee349c00e, type: 3}
+  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_PixelInset:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  m_LeftBorder: 0
+  m_RightBorder: 0
+  m_TopBorder: 0
+  m_BottomBorder: 0
+--- !u!4 &98356324
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 98356322}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .529999971, y: .860000014, z: 7}
+  m_LocalScale: {x: .330000013, y: .109999999, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &98356325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 98356322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e153135f811ec468257f5a8904d605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MPt1: {fileID: 2800000, guid: c15c7101033562348bd17b3e6c755e81, type: 3}
+  MPt2: {fileID: 2800000, guid: 602bfdc5f01f7db47a406a7cb7b8b35e, type: 3}
+  MPt3: {fileID: 2800000, guid: 9a05c3c7df897604fab2261727cfa2ab, type: 3}
+  Moneyt1: {fileID: 2800000, guid: 581eecfd14e302a47b465c6c17474f87, type: 3}
+  Moneyt2: {fileID: 2800000, guid: c26ef18ca248a8c4484f3c8ea5d6c983, type: 3}
+  Moneyt3: {fileID: 2800000, guid: 8e8a6f8dc1b9880418bb84b6a697bb71, type: 3}
+  Mineralt1: {fileID: 2800000, guid: 983a469f0dfd4664899fe1f9ea6a9d9c, type: 3}
+  Mineralt2: {fileID: 2800000, guid: 1a88804fe7198c245852eaced98aa4a3, type: 3}
+  Mineralt3: {fileID: 2800000, guid: 6af887a41d3a659439b1682468ef247c, type: 3}
+  HomeP1: {fileID: 2800000, guid: c37be4707f94d4a488033934a94cb5e6, type: 3}
+  HomeP2: {fileID: 2800000, guid: 8b09a814eb211ab48b5094521a606a0e, type: 3}
+  Central: {fileID: 2800000, guid: f221eda2659b1db44a9ab5a191a0272c, type: 3}
 --- !u!1 &117261615
 GameObject:
   m_ObjectHideFlags: 0
@@ -1768,6 +1840,7 @@ MonoBehaviour:
   MP: 2
   Money: 0
   Mineral: 0
+  planetID: 12
 --- !u!61 &132263603
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3083,6 +3156,7 @@ MonoBehaviour:
   MP: 2
   Money: 2
   Mineral: 2
+  planetID: 999
 --- !u!61 &241727691
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4181,6 +4255,7 @@ MonoBehaviour:
   MP: 0
   Money: 0
   Mineral: 0
+  planetID: 222
 --- !u!61 &337308429
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4449,6 +4524,7 @@ MonoBehaviour:
   MP: 1
   Money: 0
   Mineral: 0
+  planetID: 11
 --- !u!61 &354055955
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5310,6 +5386,7 @@ MonoBehaviour:
   MP: 0
   Money: 0
   Mineral: 3
+  planetID: 33
 --- !u!61 &394224211
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6855,6 +6932,7 @@ MonoBehaviour:
   MP: 2
   Money: 0
   Mineral: 0
+  planetID: 12
 --- !u!61 &494390210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12122,6 +12200,7 @@ MonoBehaviour:
   MP: 0
   Money: 2
   Mineral: 0
+  planetID: 22
 --- !u!61 &819926321
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12385,6 +12464,7 @@ MonoBehaviour:
   MP: 0
   Money: 0
   Mineral: 2
+  planetID: 32
 --- !u!61 &831431464
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12813,6 +12893,7 @@ MonoBehaviour:
   MP: 0
   Money: 2
   Mineral: 0
+  planetID: 22
 --- !u!61 &873444091
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13090,6 +13171,7 @@ MonoBehaviour:
   MP: 0
   Money: 0
   Mineral: 2
+  planetID: 32
 --- !u!61 &909661584
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13181,6 +13263,7 @@ MonoBehaviour:
   MP: 0
   Money: 0
   Mineral: 2
+  planetID: 32
 --- !u!61 &911367265
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13391,6 +13474,7 @@ MonoBehaviour:
   MP: 0
   Money: 3
   Mineral: 0
+  planetID: 23
 --- !u!61 &922819344
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13482,6 +13566,7 @@ MonoBehaviour:
   MP: 0
   Money: 1
   Mineral: 0
+  planetID: 21
 --- !u!61 &922969836
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16874,6 +16959,7 @@ MonoBehaviour:
   MP: 2
   Money: 0
   Mineral: 0
+  planetID: 12
 --- !u!61 &1158457887
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17501,6 +17587,7 @@ MonoBehaviour:
   MP: 0
   Money: 2
   Mineral: 0
+  planetID: 22
 --- !u!61 &1253933444
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18285,6 +18372,7 @@ MonoBehaviour:
   MP: 0
   Money: 1
   Mineral: 0
+  planetID: 21
 --- !u!61 &1339697232
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19161,6 +19249,7 @@ MonoBehaviour:
   MP: 1
   Money: 0
   Mineral: 0
+  planetID: 11
 --- !u!61 &1394491408
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22322,6 +22411,7 @@ MonoBehaviour:
   MP: 0
   Money: 1
   Mineral: 0
+  planetID: 21
 --- !u!61 &1575433852
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23587,6 +23677,7 @@ MonoBehaviour:
   MP: 0
   Money: 0
   Mineral: 1
+  planetID: 31
 --- !u!61 &1731830976
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24050,6 +24141,7 @@ MonoBehaviour:
   MP: 0
   Money: 0
   Mineral: 0
+  planetID: 0
 --- !u!1 &1781537647
 GameObject:
   m_ObjectHideFlags: 0
@@ -27414,6 +27506,7 @@ MonoBehaviour:
   MP: 1
   Money: 0
   Mineral: 0
+  planetID: 11
 --- !u!61 &1983773199
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27762,6 +27855,7 @@ MonoBehaviour:
   MP: 0
   Money: 2
   Mineral: 0
+  planetID: 22
 --- !u!61 &1995263287
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -12,6 +12,7 @@ public class PlanetStatsScript : MonoBehaviour
 		public int MP;
 		public int Money;
 		public int Mineral;
+		public int planetID;
 
 		void Start ()
 		{
@@ -26,11 +27,13 @@ public class PlanetStatsScript : MonoBehaviour
 		void OnMouseEnter ()
 		{
 				GetComponent<SpriteRenderer> ().sprite = highlight;
+		PlanetInfoScript.InfoID = planetID;
 		}
 	
 		void OnMouseExit ()
 		{
 				GetComponent<SpriteRenderer> ().sprite = nonHighlight;
+		PlanetInfoScript.InfoID = 0;
 		}
 	
 		void OnMouseDown ()
@@ -90,7 +93,7 @@ public class PlanetStatsScript : MonoBehaviour
 										BattleScript.attackerShip = ShipAttackP1;
 										ShipAttackP1.GetComponent<ShipPlayerOneController> ().attacking = true;
 										ShipSpeedFixScript.shipOneBattleSpeed = ShipSpeedFixScript.shipOneFixedSpeed;
-					ShipSpeedFixScript.shipBattleCoreCount = ShipSpeedFixScript.shipFixedCoreCount;
+										ShipSpeedFixScript.shipBattleCoreCount = ShipSpeedFixScript.shipFixedCoreCount;
 
 
 										/*GameControlScript.playerMPAdd += MP;
@@ -116,7 +119,7 @@ public class PlanetStatsScript : MonoBehaviour
 										BattleScript.attackerShip = ShipAttackP2;
 										ShipAttackP2.GetComponent<ShipPlayerTwoController> ().attacking = true;
 										ShipSpeedFixScript.shipTwoBattleSpeed = ShipSpeedFixScript.shipTwoFixedSpeed;
-					ShipSpeedFixScript.shipBattleCoreCount = ShipSpeedFixScript.shipFixedCoreCount;
+										ShipSpeedFixScript.shipBattleCoreCount = ShipSpeedFixScript.shipFixedCoreCount;
 
 										/*GameControlScript.enemyMPAdd += MP;
 					GameControlScript.enemyMoneyAdd += Money;

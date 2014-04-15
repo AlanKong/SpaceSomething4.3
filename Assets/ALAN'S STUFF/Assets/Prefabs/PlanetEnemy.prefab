@@ -433,6 +433,7 @@ MonoBehaviour:
   MP: 0
   Money: 0
   Mineral: 0
+  planetID: 222
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
